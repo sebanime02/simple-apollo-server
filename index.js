@@ -41,7 +41,6 @@ const resolvers = {
     Mutation: {
         createNote: (_, note) => {
             const lastIndex = notes.length;
-            console.log('last Index', lastIndex);
             notes.push(
                 {
                     ...note, 
